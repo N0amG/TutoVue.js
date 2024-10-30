@@ -2,8 +2,8 @@
   <p> compteur : {{ count }}</p>
   <button @click="increment">Incrémenter</button>
   <button @click="decrement">Décrémenter</button>
-
-  <hr>
+  
+  <hr>  
 
   <form action="" @submit.prevent="">
     <input type="text" placeholder="Nouveau Film" v-model="newMovie">
