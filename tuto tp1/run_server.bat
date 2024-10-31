@@ -1,3 +1,2 @@
-cd "C:\Users\noamg\Bureau\github\Web\Vue.js\tuto\tuto"
-
+cd "$(dirname "$0")"
 npm run dev
